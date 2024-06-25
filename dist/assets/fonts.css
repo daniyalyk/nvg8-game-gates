@@ -1,0 +1,15 @@
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('path/to/your/font.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: "upheavel";
+    src: url("assets\fonts\upheavtt.ttf")
+    format("truetype");
+}
+
+/* Use the custom font in your CSS */
+body {
+    font-family: 'upheavel', sans-serif;
+}
